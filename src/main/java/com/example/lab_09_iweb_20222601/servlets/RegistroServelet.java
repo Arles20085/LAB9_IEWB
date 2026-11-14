@@ -20,10 +20,11 @@ public class RegistroServelet extends HttpServlet {
             RequestDispatcher view = request.getRequestDispatcher("registro.jsp");
             view.forward(request, response);
         }
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {}
 
 
-
-
-    }
 
 }
+
