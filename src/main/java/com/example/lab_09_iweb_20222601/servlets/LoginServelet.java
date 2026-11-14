@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
-@WebServlet(name="LoginServelet",value = "/LoginServelet")
+@WebServlet(name="LoginServelet",value = "/LoginServlet")
 public class LoginServelet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)

@@ -1,10 +1,4 @@
-<html>
-<body>
-<h2>Hello World!</h2>
-</body>
-
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     response.sendRedirect(request.getContextPath() + "/LoginServlet");
 %>
-
-</html>

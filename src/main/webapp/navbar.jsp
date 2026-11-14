@@ -1,5 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:useBean id="usuarioSession" type="com.example.lab9_biblioteca.beans.Usuario" scope="session" class="com.example.lab9_biblioteca.beans.Usuario"/>
+<jsp:useBean id="usuarioSession" type="com.example.lab_09_iweb_20222601.beans.Usuario" scope="session" class="com.example.lab_09_iweb_20222601.beans.Usuario"/>
 <h2>Biblioteca – <%=usuarioSession.getNombres()%> <%=usuarioSession.getApellidos()%> (<%=usuarioSession.getRol()%>)</h2>
 <a href="<%=request.getContextPath()%>/LibroServlet">Libros</a>
 <a href="<%=request.getContextPath()%>/PrestamoServlet">Mis préstamos</a>
